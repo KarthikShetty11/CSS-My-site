@@ -1,4 +1,26 @@
 #top_container{
-    width: 200px;
+    background-color: aqua;
+    width: 30%;
     height: 200px;
+    border: solid;
+    padding: 10px;
+
+}
+
+#middle_container{
+    background-color: antiquewhite;
+    width: 30%;
+    height: 200px;
+    border: solid;
+    padding: 10px;
+    margin-left: 225px;
+}
+
+#bottom_container{
+    background-color: brown;
+    width: 30%;
+    height: 200px;
+    border: solid;
+    padding: 10px;
+    margin-left: 450px;
 }
