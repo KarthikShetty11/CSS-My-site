@@ -1,26 +1,34 @@
 #top_container{
     background-color: aqua;
-    width: 30%;
+    width: 200px;
     height: 200px;
     border: solid;
     padding: 10px;
-
+    display: inline-block;
+    position: relative;
+    left: 460px;
 }
 
 #middle_container{
     background-color: antiquewhite;
-    width: 30%;
+    width: 200px;
     height: 200px;
     border: solid;
     padding: 10px;
-    margin-left: 225px;
+    /* margin-left: 225px; */
+    display: inline-block;
+    position: relative;
+    right: 230px;
 }
 
 #bottom_container{
     background-color: brown;
-    width: 30%;
+    width: 200px;
     height: 200px;
     border: solid;
     padding: 10px;
-    margin-left: 450px;
+    /* margin-left: 450px; */
+    display: inline-block;
+    position: relative;
+    right:230px
 }
