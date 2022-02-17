@@ -1,12 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
+
 body{
     margin: 0px;
     text-align: center;
-    font-family: ;
+    font-family: 'Merriweather', serif;
 }
 
-#top_container{
+h1{
+    font-family: 'Sacramento', cursive;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.top-container{
     background-color: rgb(214, 241, 241);
-    
+    padding-top: 100px;
+    position: relative;
     
     /* width: 200px;
     height: 200px; */
@@ -18,15 +33,29 @@ body{
     position: relative;
     left: 460px; */
 }
+.top_cloud{
+    position: absolute;
+    right: 200px;
+    top: 50px;
+ }
+ 
+ .bottom_cloud{
+     position: absolute;
+     left:100px;
+     bottom:300px;
+ }
+ 
 
-#middle_container{
-    background-color: antiquewhite;
+.middle-container{
+
+
+    
+    /* background-color: antiquewhite;
     position: absolute;
     left:200px;
     top: 200px;
     width: 200px;
-    height: 200px;
-    
+    height: 200px; */
 
     /* margin-left: 225px; */
     /* border: solid;
@@ -36,13 +65,15 @@ body{
     right: 230px; */
 }
 
-#bottom_container{
-    background-color: brown;
+.bottom-container{
+    
+    
+    /* background-color: brown;
     width: 200px;
     height: 200px;
     position: absolute;
     left: 400px;
-    top: 400px;
+    top: 400px; */
     /* margin-left: 450px; */
     /* border: solid;
     padding: 10px;
@@ -50,3 +81,4 @@ body{
     position: relative;
     right:230px */
 }
+
