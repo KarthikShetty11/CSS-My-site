@@ -1,12 +1,17 @@
 body{
     margin: 0px;
+    text-align: center;
+    font-family: ;
 }
 
 #top_container{
-    background-color: aqua;
-    width: 200px;
-    height: 200px;
-    position: absolute;
+    background-color: rgb(214, 241, 241);
+    
+    
+    /* width: 200px;
+    height: 200px; */
+    /* position: absolute;
+    padding: 100px; */
     /* border: solid;
     padding: 10px;
     display: inline-block;
@@ -16,11 +21,13 @@ body{
 
 #middle_container{
     background-color: antiquewhite;
-    width: 200px;
-    height: 200px;
     position: absolute;
     left:200px;
     top: 200px;
+    width: 200px;
+    height: 200px;
+    
+
     /* margin-left: 225px; */
     /* border: solid;
     padding: 10px;
