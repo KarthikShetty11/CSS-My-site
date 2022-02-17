@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
+
 
 body{
     margin: 0px;
@@ -7,7 +7,10 @@ body{
 }
 
 h1{
-    font-family: 'Sacramento', cursive;
+    font-size: 90px;
+    margin-top: 0;
+    /* font-family: 'Sacramento', cursive; */
+    font-family: 'Dancing Script', cursive;
 }
 
 h2{
@@ -49,7 +52,7 @@ h3{
 .middle-container{
 
 
-    
+
     /* background-color: antiquewhite;
     position: absolute;
     left:200px;
