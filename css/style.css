@@ -85,33 +85,33 @@ h3{
 
 
 .skill-row1{
-    width: 60%;
-    margin: 50px auto 200px auto;
+    width: 65%;
+    margin: 50px auto 250px auto;
     text-align: left;
     line-height: 2;
 }
 
 .skill-img1{
-    width: 30%;
+    width: 25%;
     float: left;
     margin-right: 30px;
     margin-bottom: 50px;
 }
 
 .skill-discription1{
-    clear: left ;
+    /* clear: left ; */
 }
 
 .skill-row2{
-    width: 60%;
-    margin: 100px auto 250px auto;
+    width: 65%;
+    margin: 100px auto 300px auto;
     text-align: left;
     line-height: 2;
-    
+    padding-bottom: 200px;  
 }
 
 .skill-img2{
-    width: 30%;
+    width: 25%;
     float: right;
     margin-left: 30px;
     
@@ -127,7 +127,7 @@ hr{
     border-color: gray;
     border-width: 5px;
     width: 100px;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 .contact-me{
