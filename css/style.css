@@ -7,7 +7,7 @@ body{
 h1{
     font-size: 5rem;
     font-weight: bold;
-    /* margin: 10px auto 0 auto; */
+    margin:0;
     /* font-family: 'Sacramento', cursive; */
     font-family: 'Dancing Script', cursive;
     color: #386e6e;
@@ -28,7 +28,7 @@ h3{
 }
 
 .top-container{
-    background-color: #bfdbfe;
+    background-color: #D1E8E4;
     padding-top: 100px;
     position: relative;
     
