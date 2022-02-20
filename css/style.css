@@ -27,6 +27,10 @@ h3{
     color: #11999E;
 }
 
+p{
+    line-height: 2;
+}
+
 .top-container{
     background-color: #D1E8E4;
     padding-top: 100px;
@@ -61,7 +65,7 @@ h3{
  
 
 .middle-container
-{ margin-top: 2px;
+{ margin: 100px 0 30px 0;
 /* {background-color: #f8fafc; */
     /*position: absolute;
     left:200px;
@@ -89,7 +93,6 @@ h3{
     margin: 0 auto 50px auto;
     padding: 20px auto 100px auto;
     text-align: left;
-    line-height: 2;
 }
 
 .skill-img1{
@@ -105,9 +108,8 @@ h3{
 
 .skill-row2{
     width: 65%;
-    margin: 0 auto 50px auto;
+    margin: 100px auto 100px auto;
     text-align: left;
-    line-height: 2;
     padding-bottom:100px;  
 }
 
@@ -123,12 +125,12 @@ h3{
 }
 
 hr{    
-    border-style:none;
-    border-top-style: dotted;
+    border-style: dotted;
+    border-bottom: none;
     border-color: gray;
-    border-width: 5px;
-    width: 100px;
-    margin-top: 50px;
+    border-width: 10px;
+    width: 5%;
+    margin:50px auto;
 }
 
 .contact-me{
@@ -138,23 +140,25 @@ hr{
     -webkit-border-radius: 28;
     -moz-border-radius: 28;
     border-radius: 28px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #ffffff;
     font-size: 20px;
-    background: #3498db;
+    background: #386e6e;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
+    
   }
   
   .btn:hover {
     background: #3cb0fd;
     text-decoration: none;
+    
   }
   
   .bottom-container{
     
     background-color: #047857;
-    padding: 20px 0 20px 0;
+    padding: 30px 0 5px 0;
     
     /* background-color: brown;
     width: 200px;
@@ -172,5 +176,19 @@ hr{
 
 .footer-link{
     color: #d1f0f1;
+    font-family: 'Montserrat', sans-serif;
     margin: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer-link:hover{
+    color: #191919;
+    
+}
+
+.copyright{
+    margin: 0;
+    padding-top: 30px;
+    font-size: 0.75rem;
 }
