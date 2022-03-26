@@ -249,10 +249,12 @@ hr{
 {
     position: absolute;
     right: 200px;
+    font-size: smaller;
 }
 
 .btn2
 {
     position: absolute;
-    right: 20px;
+    right: 50px;
+    font-size: smaller;
 } 
