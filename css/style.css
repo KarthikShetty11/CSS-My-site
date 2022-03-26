@@ -135,6 +135,18 @@ hr{
 .contact-me{
     margin-top: 20px;
 }
+.contact-me .btn{
+
+}
+
+/* @media (max-width:2000px) {
+
+    .contact-me{
+        position:static;
+        width: 80%;
+        text-align: center;
+    }
+} */
 .btn {
     -webkit-border-radius: 28;
     -moz-border-radius: 28;
@@ -204,13 +216,10 @@ hr{
     
 }
 
-.project-description{
-    display: inline-block;
-}
 
 
 .project-row2{
-    width: 80%;
+    width: 90%;
     margin: 10px auto 10px auto;
     padding: 20px 0 20px 0;
     text-align: left;
@@ -223,8 +232,14 @@ hr{
  padding-left: 10px;
 }
 
-.project btn
+/* .btn1
 {
     position: absolute;
-    right: 10px;
+    right: 200px;
 }
+
+.btn2
+{
+    position: absolute;
+    right: 20px;
+} */
