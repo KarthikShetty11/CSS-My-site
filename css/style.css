@@ -147,6 +147,16 @@ hr{
         text-align: center;
     }
 } */
+
+/* @media (max-width:1000px) 
+{
+.btn{
+    position:static;
+    width: 90%;
+    margin-top: 10%;
+    }
+} */
+
 .btn {
     -webkit-border-radius: 28;
     -moz-border-radius: 28;
@@ -167,6 +177,9 @@ hr{
     
   }
   
+
+
+
   .bottom-container{
     
     background-color:#386e6e;;
@@ -206,7 +219,7 @@ hr{
 }
 
 .project-row1{
-    width: 80%;
+    width: 70%;
     margin: 10px auto 10px auto;
     padding: 20px 0 20px 0;
     text-align: left;
@@ -219,7 +232,7 @@ hr{
 
 
 .project-row2{
-    width: 90%;
+    width: 70%;
     margin: 10px auto 10px auto;
     padding: 20px 0 20px 0;
     text-align: left;
