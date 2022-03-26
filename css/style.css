@@ -143,6 +143,7 @@ hr{
     color: #ffffff;
     font-size: 20px;
     background: #386e6e;
+    margin: 0 20px;;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
     
@@ -190,4 +191,40 @@ hr{
     margin: 0;
     padding-top: 30px;
     font-size: 0.75rem;
+}
+
+.project-row1{
+    width: 80%;
+    margin: 10px auto 10px auto;
+    padding: 20px 0 20px 0;
+    text-align: left;
+    background-color: #B4CFB0;
+    border-radius: 40px 10px;
+    position: relative;
+    
+}
+
+.project-description{
+    display: inline-block;
+}
+
+
+.project-row2{
+    width: 80%;
+    margin: 10px auto 10px auto;
+    padding: 20px 0 20px 0;
+    text-align: left;
+    background-color: #E5E3C9;
+    border-radius: 10px 40px;
+    position: relative;
+}
+
+.project, h3,  p {
+ padding-left: 10px;
+}
+
+.project btn
+{
+    position: absolute;
+    right: 10px;
 }
